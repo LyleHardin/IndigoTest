@@ -1,0 +1,16 @@
+@inherits LayoutComponentBase
+
+<div class="master-view-container column">
+    <IgbNavbar class="app-bar" master-view-scope>
+        <div slot="end">
+            <IgbButton Variant="ButtonVariant.Flat" class="button" master-view-scope>
+                <span class="material-icons">person</span>
+                <IgbRipple></IgbRipple>
+            </IgbButton>
+        </div>
+    </IgbNavbar>
+    <div class="view-container">@Body</div>
+</div>
+
+@code {
+}

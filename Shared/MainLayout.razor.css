@@ -1,0 +1,19 @@
+.master-view-container {
+    align-items: stretch;
+    height: 100%;
+}
+.view-container {
+    position: relative;
+    flex-grow: 1;
+}
+.app-bar {
+    height: max-content;
+    min-width: min-content;
+}
+.button::part(base) {
+    color: hsla(var(--igc-surface-500));
+}
+.column {
+    display: flex;
+    flex-direction: column;
+}
